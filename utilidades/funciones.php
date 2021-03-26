@@ -8,3 +8,10 @@
           $area = $lado * $lado;
           return $area;
       }
+       /*
+       * función que calcula la media
+       */
+      function calcularMedia($num1, $num2, $num3)
+      {
+          return ($num1 + $num2 + $num3) / 3;
+      }
