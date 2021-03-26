@@ -15,3 +15,11 @@
       {
           return ($num1 + $num2 + $num3) / 3;
       }
+      /*
+       * función que muestra unmensaje
+       */
+      function mostrarMensaje($mensaje)
+      {
+         echo "<p>$mensaje</p>";
+         
+      }
