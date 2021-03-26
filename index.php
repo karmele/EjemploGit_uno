@@ -3,11 +3,10 @@
 // 1º Admin: incluir funciones.php el admin
 include "utilidades/funciones.php";
 
-// 2º El Colaborador: incluir la función calcularArea() con la rama: func1
  echo "<h3>Cálculo del área de un cuadrado</h3>";
- $lado = 3;
+ $lado = 6;
  $area = calcularArea($lado); 
- $resultado = "<p>El &aacute;rea de un cuadrado de lado $lado es $area " . "</p>";
+ $resultado = "<p>El &aacute;rea de un cuadrado de lado $lado es $area " . " añadido un cambio</p>";
 
 
 // 3º Uno de ellos:incluir la función calcularMedia() con la rama: func2
